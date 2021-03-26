@@ -19,12 +19,17 @@
   /*customizable*/
   object-position: 50% 50%;
   border-radius: 4px 4px 0 0;
+
 }
 
 .card-pick-info {
   /*customizable*/
   padding: 16px;
   color: black;
+
+  p {
+    font-size: 12px;
+  }
 }
 
 .card-pick-info h2 {
