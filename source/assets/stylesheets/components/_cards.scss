@@ -24,6 +24,7 @@
 .card-pick-info {
   /*customizable*/
   padding: 16px;
+  color: black;
 }
 
 .card-pick-info h2 {
@@ -36,4 +37,5 @@
   transition: 0.2s ease-out;
   transform: translateY(-8px);
   box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  text-decoration: none;
 }
