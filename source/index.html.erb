@@ -1,6 +1,12 @@
-<div class="container mt-3">
-  <div class="row justify-content-center">
+<div class="navbar-lewagon">
+   <img src="https://media-exp1.licdn.com/dms/image/C5103AQHXJMNyqW_X3w/profile-displayphoto-shrink_400_400/0/1539589669495?e=1622073600&v=beta&t=N41QK9LFgppo9vcBS_eoYp-koGwFz36akQ5LH82QpV8" alt="" class="avatar" style="margin-left: 1rem; margin-top: 0.75rem;">
+  <div class="container">
+    <div class="row justify-content-end">
     <div class="col">
+    </div>
+      <a href="#project" style="text-decoration: none; color: white; padding-right: 8px ">Projects</a>
+      <a href="#tags" style="text-decoration: none; color: white; padding-right: 8px">Skills</a>
+      <a href="#contact" style="text-decoration: none; color: white; padding-right: 8px">Contact</a>
     </div>
   </div>
 </div>
@@ -20,7 +26,7 @@
         <img src="https://media-exp1.licdn.com/dms/image/C5103AQHXJMNyqW_X3w/profile-displayphoto-shrink_400_400/0/1539589669495?e=1622073600&v=beta&t=N41QK9LFgppo9vcBS_eoYp-koGwFz36akQ5LH82QpV8" alt="" class="avatar" id="profile-pic">
         
         <div style="text-align: center;">
-          <a href="https://github.com/brandon-lindberg" target="_blank" class="font-awesome"><i class="fab fa-github-alt"></i></a>
+          <a href="https://github.com/brandon-lindberg" target="_blank" class="font-awesome" style="color: black;"><i class="fab fa-github-alt"></i></a>
           <a href="https://www.linkedin.com/in/brandon-lindberg/" target="_blank" class="font-awesome"><i class="fab fa-linkedin"></i></a>
         </div>      
       </div>
@@ -41,70 +47,70 @@
 </div>
 
 <%# Projects section %>
-<div class="container mt-3 projects">
+<div style="background-color: rgb(250, 250, 250);">
+  <div class="container mt-3 projects">
 
-  <div class="project">
-    <h3>Projects</h3>
-    <p>Latest Projects</p>
+    <div id="project">
+      <h3>Projects</h3>
+      <p>Latest Projects</p>
 
-    <div class="row justify-content-center">
+      <div class="row justify-content-center">
 
-      <%# Kitchen Cart %>
-      <div class="col-lg-3 col-md-5 col-sm-12 col-xs-12">
-        <a href="https://github.com/brandon-lindberg/kitchen-cart" target="_blank" style="text-decoration:none;">
-          <div class="card-pick">
-            <img src="../assets/images/kitchen-cart-5.JPG" alt="">
-            <div class="card-pick-info">
-              <h4>Kitchen Cart</h4>
-              <p style="color: grey;"><i>(Currently in Development)</i></p>
-              <p>Web application developed using Rails and React, that tracks and displays food carts in your geographical area.</p>          
+        <%# Kitchen Cart %>
+        <div class="col-lg-3 col-md-5 col-sm-12 col-xs-12">
+          <a href="https://github.com/brandon-lindberg/kitchen-cart" target="_blank" style="text-decoration:none;">
+            <div class="card-pick">
+              <img src="../assets/images/kitchen-cart-5.JPG" alt="">
+              <div class="card-pick-info">
+                <h4>Kitchen Cart</h4>
+                <p style="color: grey;"><i>(Currently in Development)</i></p>
+                <p>Web application developed using Rails and React, that tracks and displays food carts in your geographical area.</p>          
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
+
+        <%# Level Up %>
+        <div class="col-lg-3 col-md-5 col-sm-12 col-xs-12">
+          <a href="https://www.lvl-up.life/" target="_blank" style="text-decoration:none;">
+            <div class="card-pick">
+              <img src="../assets/images/levelup.JPG" alt="">
+              <div class="card-pick-info">
+                <h4>Level Up</h4>
+                <p>Web application developed using Rails, about a social sharing app dedicated to monitoring your goals and tracking your achievements.</p>          
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <%# Renterperter %>
+        <div class="col-lg-3 col-md-5 col-sm-12 col-xs-12">
+          <a href="https://renterpreter.herokuapp.com/" target="_blank" style="text-decoration:none;">
+            <div class="card-pick">
+              <img src="../assets/images/renterperter.JPG" alt="">
+              <div class="card-pick-info">
+                <h4>Renterperter</h4>
+                <p>Web application developed using Rails, a clone of the popular web app, AirBnB. Where you can connect with translators in a desired language.</p>          
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <%# Mister Wobbly Pop %>
+        <div class="col-lg-3 col-md-5 col-sm-12 col-xs-12">
+          <a href="https://mister-wobbly-pop.herokuapp.com/cocktails" target="_blank" style="text-decoration:none;">
+            <div class="card-pick">
+              <img src="../assets/images/misterpop.JPG" alt="">
+              <div class="card-pick-info">
+                <h4>Mister Wobbly Pop</h4>
+                <p>Web application developed using Rails, where you can create your own cocktail recipes and share them.</p>          
+              </div>
+            </div>
+          </a>
+        </div>      
       </div>
-
-      <%# Level Up %>
-      <div class="col-lg-3 col-md-5 col-sm-12 col-xs-12">
-        <a href="https://www.lvl-up.life/" target="_blank" style="text-decoration:none;">
-          <div class="card-pick">
-            <img src="../assets/images/levelup.JPG" alt="">
-            <div class="card-pick-info">
-              <h4>Level Up</h4>
-              <p>Web application developed using Rails, about a social sharing app dedicated to monitoring your goals and tracking your achievements.</p>          
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <%# Renterperter %>
-      <div class="col-lg-3 col-md-5 col-sm-12 col-xs-12">
-        <a href="https://renterpreter.herokuapp.com/" target="_blank" style="text-decoration:none;">
-          <div class="card-pick">
-            <img src="../assets/images/renterperter.JPG" alt="">
-            <div class="card-pick-info">
-              <h4>Renterperter</h4>
-              <p>Web application developed using Rails, a clone of the popular web app, AirBnB. Where you can connect with translators in a desired language.</p>          
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <%# Mister Wobbly Pop %>
-      <div class="col-lg-3 col-md-5 col-sm-12 col-xs-12">
-        <a href="https://mister-wobbly-pop.herokuapp.com/cocktails" target="_blank" style="text-decoration:none;">
-          <div class="card-pick">
-            <img src="../assets/images/misterpop.JPG" alt="">
-            <div class="card-pick-info">
-              <h4>Mister Wobbly Pop</h4>
-              <p>Web application developed using Rails, where you can create your own cocktail recipes and share them.</p>          
-            </div>
-          </div>
-        </a>
-      </div>      
     </div>
-
   </div>
-
 </div>
 
 <%# Skill tags section %>
@@ -113,7 +119,7 @@
 
   <div class="row justify-content-center">
 
-    <div class="tags">
+    <div class="tags" id="tags">
 
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <%# front-end tags %>
@@ -165,28 +171,50 @@
 </div> %>
 
 <%# Contact %>
-<div class="container mt-3 contact">
+<div style="background-color: rgb(250, 250, 250);">
+<div class="container mt-3 contact" id="contact">
   <h3>Contact</h3>
 
   <div class="row justify-content-around">
-    <div class="buttons">
 
-      <a href="mailto:lindberg.scott.brandon@gmail.com">
-        <div class="btn btn-primary">Email Me</div>
-      </a>
-
-      <a href="../assets/documents/cv-brandon-lindberg.pdf" target="_blank">
-        <div class="btn btn-primary">Resume</div>
-      </a>
-      <br>
-      <br>
-    </div>
+  <div class="col">
+    <p>Please feel free to contact me, and have a look at my resume.</p> 
   </div>
 
+    <div class="col">
+      
+      <div class="buttons">
+        <a href="mailto:lindberg.scott.brandon@gmail.com" style="text-decoration: none;">
+          <div class="btn btn-primary">Email Me</div>
+        </a>
+
+        <a href="../assets/documents/cv-brandon-lindberg.pdf" target="_blank" style="text-decoration: none;">
+          <div class="btn btn-primary">Resume</div>
+        </a>
+        <br>
+        <br>
+      </div>
+    
+    </div>
+    
+
+  </div>
+</div>
 </div>
 
 <footer>
   <div class="container mt-3">
-    <p>Developed by Brandon Lindberg</p>
+    <div class="row justify-content-end">
+      <p>Developed by Brandon Lindberg</p>
+
+      <div class="col">
+
+        <div style="text-align: end;">
+          <a href="https://github.com/brandon-lindberg" target="_blank" class="font-awesome" style="color: black;"><i class="fab fa-github-alt"></i></a>
+          <a href="https://www.linkedin.com/in/brandon-lindberg/" target="_blank" class="font-awesome"><i class="fab fa-linkedin"></i></a>
+        </div> 
+
+      </div>
+    </div>
   </div>
 </footer>
